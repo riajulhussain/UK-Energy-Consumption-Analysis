@@ -31,7 +31,32 @@ Standardised region–postcode mapping and created ranking buckets (NTILE) for p
 
 ## Dashboard Preview
 
+https://github.com/riajulhussain/UK-Energy-Consumption-Analysis/blob/main/Screenshot%202025-09-14%20172356.png
 
+
+## 📊 Dashboard Walkthrough (for Stakeholders)
+
+This dashboard was designed to answer the business question:  
+**“Which regions of the UK show the highest and most inefficient energy consumption and where should we prioritise?”**
+
+### 1. KPI Cards
+- Total UK Consumption: Shows overall demand across the UK (important for understanding the national scale).  
+- Average Consumption per Meter: Averages usage across households/meters, useful to spot efficiency levels.  
+- Birmingham Total Consumption: Highlights a high-consumption city to show regional concentration.  
+
+### 2. Bar Chart – Top 10 Regions by Total Consumption
+- Quickly shows which regions consume the most energy.  
+- Helps identify priority regions for infrastructure investment.  
+
+### 3. Scatter Plot – Avg. Consumption per Meter vs. Total Meters
+- Each point is a region.  
+- Colour-coded red/green depending on whether they are above/below the national average.  
+- Shows where consumption is unusually high given the number of meters - possible inefficiencies or industrial hotspots.  
+
+### 4. Histogram – Distribution of Average Consumption
+- Shows how average consumption is spread across regions.  
+- Helps identify **outliers** (regions far above the norm).
+ 
 ## Key Insights
 
 - Total UK consumption in 2021 exceeded 589 billion kWh.
@@ -52,5 +77,5 @@ Standardised region–postcode mapping and created ranking buckets (NTILE) for p
 
 ## Files
 
-Power Bi Dashboard - [Download Dashboard (.pbix)](./dashboard.pbix)  
-Dataset- [View Cleaned Dataset](./example.csv)
+Power Bi Dashboard - [Download Dashboard (.pbix)]([./dashboard.pbix](https://github.com/riajulhussain/UK-Energy-Consumption-Analysis/blob/main/Energy%20Consumption%20Dashboard.pbix))  
+Dataset- [View Cleaned Dataset]([./example.csv](https://github.com/riajulhussain/UK-Energy-Consumption-Analysis/blob/main/original_table.energy.csv))
